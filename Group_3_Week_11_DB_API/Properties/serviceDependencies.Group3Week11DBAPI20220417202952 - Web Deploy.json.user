@@ -1,0 +1,59 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2022-04-18T02:44:12.075247Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-04-18T03:16:53.6672525Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "39077dfc-5fb7-4708-9e08-02804a78e93d"
+    },
+    "Group3Week11DBAPI20220417202952.resourceGroupName": {
+      "Name": "Group3Week11DBAPI20220417202952.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "tlee"
+    },
+    "Group3Week11DBAPI20220417202952.resourceName": {
+      "Name": "Group3Week11DBAPI20220417202952.resourceName",
+      "Type": null,
+      "Value": "Group3Week11DBAPI20220417202952"
+    },
+    "Group3Week11DBAPI20220417202952.resourceGroupLocation": {
+      "Name": "Group3Week11DBAPI20220417202952.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastus"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "tlee"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "39077dfc-5fb7-4708-9e08-02804a78e93d"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "tlee"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "39077dfc-5fb7-4708-9e08-02804a78e93d"
+    },
+    "Group3Week11DBAPI20220417202952.subscriptionId": {
+      "Name": "Group3Week11DBAPI20220417202952.subscriptionId",
+      "Type": "subscription",
+      "Value": "39077dfc-5fb7-4708-9e08-02804a78e93d"
+    }
+  }
+}

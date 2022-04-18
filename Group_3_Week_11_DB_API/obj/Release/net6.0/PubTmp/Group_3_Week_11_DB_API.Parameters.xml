@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Group3Week11DBAPI20220417202952" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^F:\\School\\Spring\ 2022\\Repo\\Lee_Week12\\Group_3_Week_11_DB_API\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
