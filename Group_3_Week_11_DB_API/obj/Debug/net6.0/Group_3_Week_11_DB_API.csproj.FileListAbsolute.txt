@@ -525,3 +525,4 @@ F:\School\Spring 2022\Repo\Lee_Week12\Group_3_Week_11_DB_API\obj\Debug\net6.0\sc
 F:\School\Spring 2022\Repo\Lee_Week12\Group_3_Week_11_DB_API\obj\Debug\net6.0\Group_3_Week_11_DB_API.csproj.CopyComplete
 F:\School\Spring 2022\Repo\Lee_Week12\Group_3_Week_11_DB_API\obj\Debug\net6.0\Group_3_Week_11_DB_API.genruntimeconfig.cache
 F:\School\Spring 2022\Repo\Lee_Week12\Group_3_Week_11_DB_API\obj\Debug\net6.0\refint\Group_3_Week_11_DB_API.dll
+F:\School\Spring 2022\Repo\Lee_Week12\Group_3_Week_11_DB_API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

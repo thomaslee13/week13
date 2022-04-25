@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Group_3_Week_11_DB_API.Data;
 using Group_3_Week_11_DB_API.Models;
@@ -23,6 +24,7 @@ namespace Group_3_Week_11_DB_API.Controllers
         }
 
         // GET: api/Students
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Student>>> GetStudents()
         {

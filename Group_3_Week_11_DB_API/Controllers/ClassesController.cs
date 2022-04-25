@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Group_3_Week_11_DB_API.Data;
 using Group_3_Week_11_DB_API.Models;
@@ -16,18 +17,27 @@ namespace Group_3_Week_11_DB_API.Controllers
     public class ClassesController : ControllerBase
     {
         private readonly Wossamotta_UContext _context;
+        private readonly JwtAuthenticationManager jwtAuthenticationManager;
 
-        public ClassesController(Wossamotta_UContext context)
+        public ClassesController( Wossamotta_UContext context)
         {
+            
             _context = context;
         }
 
+
+
         // GET: api/Classes
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Class>>> GetClasses()
         {
             return await _context.Classes.ToListAsync();
         }
+
+
+
+
 
         // GET: api/Classes/5
         [HttpGet("{id}")]
@@ -119,5 +129,10 @@ namespace Group_3_Week_11_DB_API.Controllers
         {
             return _context.Classes.Any(e => e.ClassId == id);
         }
+    }
+    public class User
+    {
+        public string username { get; set; }
+        public string password { get; set; }
     }
 }

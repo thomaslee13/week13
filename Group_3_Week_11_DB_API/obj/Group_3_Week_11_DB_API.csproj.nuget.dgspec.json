@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\School\\Spring 2022\\Repo\\Lee_Week12\\Group_3_Week_11_DB_API\\Group_3_Week_11_DB_API.csproj": {}
+    "F:\\School\\Spring 2022\\Repo\\week13\\Group_3_Week_11_DB_API\\Group_3_Week_11_DB_API.csproj": {}
   },
   "projects": {
-    "F:\\School\\Spring 2022\\Repo\\Lee_Week12\\Group_3_Week_11_DB_API\\Group_3_Week_11_DB_API.csproj": {
+    "F:\\School\\Spring 2022\\Repo\\week13\\Group_3_Week_11_DB_API\\Group_3_Week_11_DB_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\School\\Spring 2022\\Repo\\Lee_Week12\\Group_3_Week_11_DB_API\\Group_3_Week_11_DB_API.csproj",
+        "projectUniqueName": "F:\\School\\Spring 2022\\Repo\\week13\\Group_3_Week_11_DB_API\\Group_3_Week_11_DB_API.csproj",
         "projectName": "Group_3_Week_11_DB_API",
-        "projectPath": "F:\\School\\Spring 2022\\Repo\\Lee_Week12\\Group_3_Week_11_DB_API\\Group_3_Week_11_DB_API.csproj",
+        "projectPath": "F:\\School\\Spring 2022\\Repo\\week13\\Group_3_Week_11_DB_API\\Group_3_Week_11_DB_API.csproj",
         "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "F:\\School\\Spring 2022\\Repo\\Lee_Week12\\Group_3_Week_11_DB_API\\obj\\",
+        "outputPath": "F:\\School\\Spring 2022\\Repo\\week13\\Group_3_Week_11_DB_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.3, )"
